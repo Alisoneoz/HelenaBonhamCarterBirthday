@@ -1,0 +1,107 @@
+body{
+  text-align:center;
+  background-image: linear-gradient(#BB998F, white, #BB998F, white);
+  font-family:'Trochut', cursive;
+
+}
+.header{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.birthday-date{
+  background-color: #BB998F;
+  color: white;
+  padding: 5px 10px;
+  border:1px solid #BB998F;
+  border-radius:7px;
+}
+
+.birthday-date:hover{
+  background-color: #bb998fa9;
+  color: black;
+  padding: 10px 20px;
+  border:1px solid #BB998F;
+  border-radius:7px;
+  text-shadow: 0 0 10px black;
+}
+
+.helena{
+  font-family: 'Emilys Candy', cursive;
+}
+
+.separator{
+  margin:0 auto 10px;
+}
+
+h2{
+  margin-top:50px;
+  margin-bottom:10px;
+}
+
+img{
+  width:300px;
+  border-radius:30%;}
+
+
+
+.gift{
+  background-image: url("bellatrix-gift.png");
+  background-size:cover;
+  margin: 0px auto;
+  height: 400px;
+  max-width:400px;
+    border-radius: 13px;
+}
+
+#gift-1:hover{
+background-image: url("https://media.giphy.com/media/bCYK1Cmi1VCso/giphy.gif");}
+
+#gift-1{
+  height:200px;
+}
+
+#gift-2:hover{
+background-image: url("https://media.giphy.com/media/wLBS2GlPDALS0/giphy.gif"); }
+
+#gift-2{
+  height:280px;
+}
+
+#gift-3:hover{
+background-image: url("https://media.giphy.com/media/jncb7lHMdHkmdBrUQ2/giphy.gif");}
+
+
+#gift-4:hover{
+background-image: url("https://media.giphy.com/media/IWvuFVQICQIr6/giphy.gif");}
+
+#gift-4{
+  height:232px
+}
+
+        
+#gift-5:hover{
+background-image: url("https://media.giphy.com/media/3o7TKSfSG6slCZ1WV2/giphy.gif");}
+
+
+#gift-5{
+height:175px}  
+
+#gift-6:hover{
+  background-image: url("https://media.giphy.com/media/9gc43QEEmxSMM/giphy.gif");}
+  
+  
+  #gift-6{
+  height:232px}  
+
+
+  #footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: black;
+}
